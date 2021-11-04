@@ -3,10 +3,10 @@ package MyPackage;
 public class Driver {
 	
 	public static void main(String[] args) {
-		System.out.print("Hello world");
+		System.out.println("Hello world");
 		
 		// Object INSTANTIATION:
-		MyThing mt = new MyThing();
+		MyThing mt = new MyThing(1, 0.5f);
 		
 		System.out.println("Say hi to my object, it has a value of " + mt.mySmallNumber);
 		
@@ -24,5 +24,11 @@ public class Driver {
 	
 	public static void myMethod(float myParameter) {
 		System.out.println("My parameter is " + myParameter);
+	}
+	
+	// Methods can have the same name and return type so long as the parameters are of different types or number
+	// This is called "overloading"
+	public static void myMethod(float anotherParameter, int x) {
+		
 	}
 }

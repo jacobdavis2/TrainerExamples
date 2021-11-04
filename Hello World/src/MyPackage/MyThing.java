@@ -1,6 +1,24 @@
 package MyPackage;
 
 public class MyThing {
+	
+	// If no constructor is defined, all objects have a no-params constructor that does nothing called a "default constructor"
+	// As soon as a constructor of any kind is defined, you lose access to your default constructor
+	
+	// Constructors are special methods that run immediately upon creation of an object
+	public MyThing() {
+		System.out.println("Hello from inside a no-params constructor!");
+	}
+	
+	// We can pass parameters into constructors as well. These are called "parameterized constructors".
+	public MyThing(int a, float b) {
+		System.out.println("Hello from inside a parameterized constructor!");
+		
+		// Constructors are often used to set initial values for data in the data model
+		this.myWholeNumber = a;
+		this.myDecimal = b;
+	}
+	
 	/* Ways to name variables and classes in Java:
 	 * Camel Case: firstLetterLowerCase, upper case for each new word's first letter, no spaces
 	 * Pascal Case: Capitalize first letter of every word, no spaces
