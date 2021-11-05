@@ -22,12 +22,12 @@ public class Q1 {
 	}
 	
 	// Returns true if an element is less then its next neighbor
-	static boolean sorted(int element, int rightNeighbor) {
+	private static boolean sorted(int element, int rightNeighbor) {
 		return element < rightNeighbor;
 	}
 	
 	// Swaps two elements in place in an array
-	static void swap(int[] array, int element_a, int element_b) {
+	private static void swap(int[] array, int element_a, int element_b) {
 		int temp = array[element_a];
 		array[element_a] = array[element_b];
 		array[element_b] = temp;

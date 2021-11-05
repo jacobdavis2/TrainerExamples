@@ -3,6 +3,8 @@ package Driver;
 import java.util.Arrays;
 
 import Questions.Q1;
+import Questions.Q3;
+import Questions.Q5;
 
 public class Driver {
 
@@ -19,7 +21,12 @@ public class Driver {
 		// myOtherArray[2] = ...
 		
 		int[] sortedArray = Q1.BubbleSort(myArray);
-		System.out.println(sortedArray);
 		System.out.println(Arrays.toString(sortedArray));
+		
+		Q1.BubbleSort(array)
+		
+		Q3.TestReverse();
+		
+		Q5.TestSubstring(4);
 	}
 }
