@@ -5,6 +5,8 @@ import java.util.Arrays;
 import Questions.Q1;
 import Questions.Q3;
 import Questions.Q5;
+import Questions.Q7;
+import Questions.Q8;
 
 public class Driver {
 
@@ -23,10 +25,16 @@ public class Driver {
 		int[] sortedArray = Q1.BubbleSort(myArray);
 		System.out.println(Arrays.toString(sortedArray));
 		
-		Q1.BubbleSort(array)
+		//Q1.BubbleSort(array);
 		
 		Q3.TestReverse();
 		
 		Q5.TestSubstring(4);
+		
+		Q7 q7 = new Q7();
+		q7.Compare();
+		
+		Q8 q8 = new Q8();
+		q8.Palindrome();
 	}
 }
