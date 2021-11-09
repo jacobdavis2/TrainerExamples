@@ -3,6 +3,11 @@ package Driver;
 import java.util.Arrays;
 
 import Questions.Q1;
+import Questions.Q13;
+import Questions.Q14;
+import Questions.Q15;
+import Questions.Q16;
+import Questions.Q17;
 import Questions.Q3;
 import Questions.Q5;
 import Questions.Q7;
@@ -36,5 +41,21 @@ public class Driver {
 		
 		Q8 q8 = new Q8();
 		q8.Palindrome();
+		
+		Q13.PrintTriangle(4);
+		
+		Q14.SwitchCases(1);
+		Q14.SwitchCases(2);
+		Q14.SwitchCases(3);
+		
+		Q15 q15 = new Q15();
+		q15.Interfaces();
+		
+		//Q16.Count(args[0]);
+		if (args.length > 0)
+			System.out.println(args[0].length());
+		
+		Q17 q17 = new Q17();
+		q17.CalculateInterest();
 	}
 }

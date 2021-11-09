@@ -26,6 +26,7 @@ public class Driver {
 				// a and b are used here because they have values from user input
 				System.out.println("Sum: " + add(a, b));
 				
+				// Can use custom Exception classes by extended Exception
 				throw new MyException();
 				
 			} catch (Exception e) {
