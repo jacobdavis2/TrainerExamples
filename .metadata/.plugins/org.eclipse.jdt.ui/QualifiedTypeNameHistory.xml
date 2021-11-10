@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Questions.Q1"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Questions.Q5"/>
+    <fullyQualifiedTypeName name="Questions.Q3"/>
+    <fullyQualifiedTypeName name="OtherPackage.ExternalObject"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="Questions.Q7"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Questions.Q8"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="Questions.Q13"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.DateTimeAtCompleted"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="Questions.Q14"/>
+    <fullyQualifiedTypeName name="Questions.Q15"/>
+    <fullyQualifiedTypeName name="Questions.Q16"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Questions.Q17"/>
+    <fullyQualifiedTypeName name="Inheritance.Methods"/>
+    <fullyQualifiedTypeName name="Inheritance.Child"/>
+    <fullyQualifiedTypeName name="Inheritance.Parent"/>
+    <fullyQualifiedTypeName name="Polymorphism.FoodMethods"/>
+    <fullyQualifiedTypeName name="Abstraction.MyConcreteClass"/>
+</qualifiedTypeNameHistroy>

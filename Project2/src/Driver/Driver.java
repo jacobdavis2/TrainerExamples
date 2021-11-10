@@ -8,6 +8,9 @@ import Questions.Q14;
 import Questions.Q15;
 import Questions.Q16;
 import Questions.Q17;
+import Questions.Q18_Subclass;
+import Questions.Q19;
+import Questions.Q20;
 import Questions.Q3;
 import Questions.Q5;
 import Questions.Q7;
@@ -19,7 +22,7 @@ public class Driver {
 	public static void main(String... args)
 	{
 		// Array initialization syntax (filled array)
-		int[] myArray = { 19, 20, 1, 16, 7, 9 };
+		/*int[] myArray = { 19, 20, 1, 16, 7, 9 };
 		
 		// Array declaration syntax (empty array)
 		int[] myOtherArray = new int[10];
@@ -56,6 +59,22 @@ public class Driver {
 			System.out.println(args[0].length());
 		
 		Q17 q17 = new Q17();
-		q17.CalculateInterest();
+		q17.CalculateInterest();*/
+		
+		/*Q18_Subclass q18 = new Q18_Subclass();
+		System.out.println(q18.hasUppercaseLetter("Jacob"));
+		System.out.println(q18.hasUppercaseLetter("zebra"));
+		System.out.println(q18.hasUppercaseLetter("the quick brown fox jumps over the lazy dog"));
+		System.out.println(q18.hasUppercaseLetter("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"));
+		
+		System.out.println(q18.toUpperCase("the quick brown fox jumps over the lazy dog"));
+		
+		System.out.println(q18.stringToInt("Jacob"));*/
+		
+		Q19 q19 = new Q19();
+		q19.arrayListPrimes();
+		
+		Q20 q20 = new Q20();
+		q20.loadData();
 	}
 }
